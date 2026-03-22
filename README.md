@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# my-daily-habits
 
-# Run and deploy your AI Studio app
+Aplicativo React simples para gerenciar hábitos diários com persistência local e navegação.
 
-This contains everything you need to run your app locally.
+## Executando localmente
 
-View your app in AI Studio: https://ai.studio/apps/304ab28e-0a3e-4ac3-8a0c-2a6049b9239f
+**Pré-requisitos:** Node.js
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. Instale dependências:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Execute o app:
    `npm run dev`
+
+## Deploy
+
+- GitHub Pages: `npm run build && npm run deploy` (se configurado)
+- Vercel / Netlify: conectar o repositório e seguir as instruções de deploy.
+
