@@ -1,0 +1,5 @@
+{
+  "name": "My Daily Habits",
+  "description": "Um aplicativo simples para gerenciar seus hábitos diários, com persistência local e navegação entre páginas.",
+  "requestFramePermissions": []
+}
